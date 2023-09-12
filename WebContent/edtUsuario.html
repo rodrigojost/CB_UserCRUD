@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<!-- HTML4 -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- HTML5 -->
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="supervisorioCBstyle.css"  />
+<title>Supervisório CleanBOX - Edição</title>
+</head>
+	<body>
+	<ul>
+	  <li><a href="index.html">Início</a></li>
+	  <li><a href="conUsuario.html">Consulta de Usuários</a></li>
+	  <li><a href="cadUsuario.html">Cadastro de Usuários</a></li>
+	  <li><a class="active" href="edtUsuario.html">Edição de Cadastro</a></li>
+	</ul>
+	<h3>Editar Cadastro de Usuário</h3>
+	<h4>Digite os novos dados:</h4>
+	
+	<form action="edtUsuario" method="post">
+	  <label for="nomeUser">Nome:</label><br>
+	  <input type="text" id="nomeUser" name="nomeUser" placeholder="Digitar Nomes"><br>
+	  
+	  <label for="sobreNomeUser">Sobrenome:</label><br>
+	  <input type="text" id="sobreNomeUser" name="sobreNomeUser" placeholder="Digitar Sobrenomes"><br>
+	  
+	  <label for="e_mailUser">E-mail:</label><br>
+	  <input type="text" id="e_mailUser" name="e_mailUser" placeholder="Digitar e-mail"><br>
+	  
+	  <label for="senhaUser">Senha:</label><br>
+	  <input type="text" id="senhaUser" name="senhaUser" placeholder="Digitar senha"><br>
+	  
+	  <h4>Para confirmar, digite seus dados atuais:</h4>
+	  
+	  <label for="oldE_mailUser">E-mail:</label><br>
+	  <input type="text" id="oldE_mailUser" name="oldE_mailUser" placeholder="Digitar e-mail atual"><br>
+	  
+	  <label for="senhaUser">Senha:</label><br>
+	  <input type="text" id="oldSenhaUser" name="oldSenhaUser" placeholder="Digitar senha atual"><br>
+	  
+	  <input type="submit" value="Submeter Edição">
+	</form> 
+
+	</body>
+</html>
